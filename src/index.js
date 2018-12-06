@@ -4,6 +4,7 @@ import './index.css';
 //import App from './App';
 import * as serviceWorker from './serviceWorker';
 import {Comment} from "./component/Comment";
+import {FormExample} from "./bootstrap/FormExample";
 //import {AlertDismissable} from "./bootstrap/AlertDismissable";
 
 const
@@ -15,7 +16,8 @@ const
 
 ReactDOM
     .render(
-        <Comment author={value} date={new Date()}/>,
+        //<Comment author={value} date={new Date()}/>,
+        <FormExample/>,
         document
             .getElementById(
                 'root'

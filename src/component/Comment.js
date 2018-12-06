@@ -3,6 +3,7 @@ import {Avatar} from "./Avatar";
 import "./Comment.css";
 import {UserInfo} from "./UserInfo";
 import {AlertDismissable} from "../bootstrap/AlertDismissable";
+import {FormExample} from "../bootstrap/FormExample";
 
 
 
@@ -28,7 +29,8 @@ export class Comment extends React.Component {
             <div className="Comment-date" onClick={this.click}>
                 {Comment.formatDate(this.state.date)}
             </div>
-            <AlertDismissable/>
+            /*<AlertDismissable/>
+            <FormExample/>*/
         </div>
     }
 
