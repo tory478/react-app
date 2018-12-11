@@ -29,7 +29,7 @@ export class FormExample extends React.Component {
     }
 
     handlePasswordChange(e) {
-        this.setState({value: e.target.password});
+        this.setState({value: e.target.value});
     }
 
     onSubmit(e) {

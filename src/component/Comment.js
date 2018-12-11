@@ -29,8 +29,8 @@ export class Comment extends React.Component {
             <div className="Comment-date" onClick={this.click}>
                 {Comment.formatDate(this.state.date)}
             </div>
-            /*<AlertDismissable/>
-            <FormExample/>*/
+            <AlertDismissable/>
+            <FormExample/>
         </div>
     }
 
